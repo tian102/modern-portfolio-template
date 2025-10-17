@@ -1,418 +1,342 @@
 # 🎨 Modern Portfolio Template
 
-A beautiful, customizable portfolio template that anyone can use! No coding required - just run the setup wizard, add your content, and deploy.
+> A beautiful, customizable portfolio website template with markdown-based content management. No coding required!
 
-**Perfect for:** Developers, designers, freelancers, students, or anyone wanting a professional online presence.
-
-🚀 **[View Demo](https://tian102.github.io/tianpretorius.github.io/)** | 📖 **[Documentation](docs/TEMPLATE_SETUP.md)** | 🐛 **[Report Issue](https://github.com/tian102/tianpretorius.github.io/issues)**
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 ---
 
-## ✨ Why This Template?
+## ✨ Features
 
-- ⚡ **5-Minute Setup** - Interactive wizard guides you through configuration
-- 🎨 **Fully Customizable** - Colors, fonts, content - all via simple config file
-- 📝 **Markdown Content** - Write blog posts and projects in markdown
-- 🚀 **One-Click Deploy** - Deploy to GitHub Pages with a single command
-- 📱 **Responsive Design** - Looks great on all devices
-- 🎯 **No Frameworks** - Pure HTML/CSS/JS for fast loading
-- ♿ **Accessible** - Built with accessibility in mind
-- 📊 **Feature Toggles** - Enable/disable sections as needed
+- 📝 **Markdown-Based Content** - Write blog posts and projects in simple markdown
+- 🎨 **Easy Customization** - Change colors, fonts, and content via configuration file
+- 🚀 **One-Command Setup** - Interactive wizard guides you through setup
+- 📱 **Fully Responsive** - Looks great on desktop, tablet, and mobile
+- 🌐 **GitHub Pages Ready** - Deploy for free in minutes
+- ⚡ **Fast & Lightweight** - Pure HTML/CSS/JS, no frameworks
+- 🎯 **Feature Toggles** - Enable/disable sections without touching code
+- 🔧 **No Build Tools Required** - Simple Node.js scripts, no webpack/bundler
 
 ---
 
 ## 🚀 Quick Start
 
-### Option 1: Interactive Setup (Recommended)
+Get your portfolio up and running in 3 steps:
+
+### 1. Clone & Install
 
 ```bash
-# 1. Use this template (click "Use this template" button on GitHub)
-# OR clone the repository
-git clone https://github.com/tian102/tianpretorius.github.io.git my-portfolio
+# Use this template (click "Use this template" button on GitHub)
+# OR clone directly:
+git clone https://github.com/yourusername/modern-portfolio-template.git my-portfolio
 cd my-portfolio
-
-# 2. Install dependencies
 npm install
+```
 
-# 3. Run the setup wizard
+### 2. Setup & Configure
+
+```bash
 npm run setup
-# Answer the questions - it takes 2 minutes!
-
-# 4. Build your site
-npm run build
-
-# 5. Preview locally
-npx live-server
 ```
 
-### Option 2: Manual Configuration
+Answer a few questions about yourself, and the wizard will configure everything automatically!
+
+### 3. Build & Deploy
 
 ```bash
-# 1. Clone and install
-git clone https://github.com/tian102/tianpretorius.github.io.git my-portfolio
-cd my-portfolio
-npm install
-
-# 2. Edit config/template.config.js with your information
-
-# 3. Build and preview
 npm run build
-npx live-server
 ```
 
-### Option 3: GitHub Template
-
-1. Click **"Use this template"** button on GitHub
-2. Name your repository `yourusername.github.io`
-3. Clone your new repository
-4. Follow steps 2-5 from Option 1
-
-📖 **Full setup guide:** [docs/TEMPLATE_SETUP.md](docs/TEMPLATE_SETUP.md)
+That's it! Your portfolio is ready. See [Deployment Guide](docs/DEPLOYMENT.md) to publish it.
 
 ---
 
-## 🎨 Features
+## 📖 Documentation
 
-### 🏠 Homepage
-- Animated hero section with role typing animation
-- Interactive "flip card" hero image (click to reveal)
-- Customizable gradient effects
-- Social media links
+- 📘 [**Setup Guide**](docs/TEMPLATE_SETUP.md) - Detailed setup instructions
+- 🎨 [**Customization Guide**](docs/CUSTOMIZATION.md) - Advanced customization
+- 🚀 [**Deployment Guide**](docs/DEPLOYMENT.md) - How to deploy your site
+- 🔧 [**Troubleshooting**](docs/TROUBLESHOOTING.md) - Common issues & solutions
+- 🤝 [**Contributing**](docs/CONTRIBUTING.md) - How to contribute
 
-### 👤 About
-- Multi-section about page
-- Skills showcase
-- Timeline/experience section
-- Resume download link
+---
 
-### � Projects
-- Project showcase with thumbnails
-- Markdown-based project details
-- Technology tags
-- Live demo and GitHub links
-- Filtering and search
-- Featured projects section
+## 🎯 What You Get
 
-### 📝 Blog
-- Full-featured blog system
-- Markdown-based posts
-- Tags and categories
-- Search functionality
-- Table of contents auto-generation
-- Reading time estimates
-- Featured posts
+### Sections
+- ✅ **Hero Section** - Eye-catching introduction with your photo
+- ✅ **About** - Tell your story and showcase skills
+- ✅ **Projects** - Portfolio of your work with images and links
+- ✅ **Blog** - Share your thoughts and knowledge
+- ✅ **Contact** - Multiple ways for people to reach you
 
-### 📧 Contact
-- Contact form integration
-- Social media links
-- Email link
-- Optional contact page
+### Features
+- 📧 **Contact Form** - Direct email integration
+- 🏷️ **Tags & Categories** - Organize your content
+- 📊 **Reading Time** - Auto-calculated for blog posts
+- 🔗 **Social Links** - GitHub, LinkedIn, Twitter, etc.
+- 📄 **Resume Download** - Link to your CV/resume
+- 🧭 **Smooth Navigation** - Section scrolling and navigation
 
-### ⚙️ Configuration
-- **One config file** - Everything in `config/template.config.js`
-- **Setup wizard** - Interactive CLI configuration
-- **Theme system** - Custom colors and fonts
-- **Feature toggles** - Enable/disable sections
-- **Content management** - Centralized in `data/site-content.json`
+---
 
-### 🛠️ Developer Features
-- **Build system** - Compiles markdown to JSON
-- **Validation** - Ensures config is correct
-- **Clean script** - Remove example content
-- **Live preview** - Test before deploying
-- **No dependencies** - Vanilla JS, no frameworks
+## ⚙️ Configuration
+
+All customization happens in one file: `config/template.config.js`
+
+```javascript
+module.exports = {
+    // Personal Information
+    personal: {
+        name: 'Your Name',
+        title: 'Software Engineer',
+        email: 'your.email@example.com'
+    },
+    
+    // Theme Colors
+    theme: {
+        primaryColor: '#2c3e50',
+        accentColor: '#3498db'
+    },
+    
+    // Feature Toggles
+    features: {
+        blog: true,
+        projects: true,
+        contactForm: true
+    }
+};
+```
+
+**Or use the wizard:**
+```bash
+npm run setup
+```
+
+See the [Customization Guide](docs/CUSTOMIZATION.md) for all options.
+
+---
+
+## 📝 Adding Content
+
+### Create a Blog Post
+
+```bash
+# 1. Create directory
+mkdir -p content/blog/posts/my-first-post
+
+# 2. Create index.md
+cat > content/blog/posts/my-first-post/index.md << EOF
+---
+title: My First Blog Post
+date: 2025-01-15
+tags: [web, development]
+author: Your Name
+---
+
+# My First Blog Post
+
+Your content here...
+EOF
+
+# 3. Build
+npm run build
+```
+
+### Create a Project
+
+```bash
+# 1. Create directory
+mkdir -p content/projects/posts/my-project
+
+# 2. Create index.md
+cat > content/projects/posts/my-project/index.md << EOF
+---
+title: My Awesome Project
+description: A brief description
+tags: [javascript, react]
+github: https://github.com/yourusername/project
+demo: https://project-demo.com
+---
+
+# My Awesome Project
+
+Project details here...
+EOF
+
+# 3. Add images to: content/projects/posts/my-project/assets/
+
+# 4. Build
+npm run build
+```
+
+---
+
+## 🛠️ Commands
+
+| Command | Description |
+|---------|-------------|
+| `npm run setup` | Interactive setup wizard |
+| `npm run build` | Build your site |
+| `npm run clean` | Remove example content |
+| `npm run validate` | Validate your configuration |
+| `npm run deploy` | Build and deploy (git push) |
 
 ---
 
 ## 📁 Project Structure
 
 ```
-modern-portfolio-template/
+my-portfolio/
 ├── config/
-│   └── template.config.js     # 👈 YOUR CONFIGURATION HERE
+│   └── template.config.js      # Your configuration
 ├── content/
-│   ├── blog/posts/            # 👈 YOUR BLOG POSTS (markdown)
-│   └── projects/posts/        # 👈 YOUR PROJECTS (markdown)
+│   ├── blog/posts/             # Your blog posts
+│   └── projects/posts/         # Your projects
+├── assets/
+│   ├── profile.png             # Your photo
+│   ├── favicon.png             # Your favicon
+│   └── Your-Resume.pdf         # Your resume
 ├── data/
-│   ├── site-content.json      # Generated site content
-│   ├── blog-posts.json        # Generated from markdown
-│   └── projects.json          # Generated from markdown
-├── scripts/
-│   ├── setup-wizard.js        # Interactive setup
-│   ├── build-content.js       # Markdown compiler
-│   ├── apply-theme.js         # Theme generator
-│   ├── validate-config.js     # Config validation
-│   └── clean-example-content.js # Remove examples
-├── docs/                      # 📖 Documentation
-│   ├── TEMPLATE_SETUP.md      # Setup guide
-│   ├── CUSTOMIZATION.md       # Customization guide
-│   ├── DEPLOYMENT.md          # Deployment guide
-│   ├── TROUBLESHOOTING.md     # Common issues
-│   └── CONTRIBUTING.md        # Contribution guide
-├── css/
-│   ├── style.css              # Main styles
-│   ├── blog.css               # Blog/project styles
-│   └── theme-variables.css    # Generated theme (auto)
-├── js/
-│   ├── main.js                # Navigation & common
-│   ├── content-loader.js      # Content management
-│   ├── config-handler.js      # Feature toggles
-│   ├── blog.js                # Blog functionality
-│   ├── projects.js            # Projects functionality
-│   └── index.js               # Homepage features
-├── assets/                    # Your images & files
-├── *.html                     # Page templates
-└── package.json               # Scripts & metadata
+│   └── site-content.json       # Generated site data
+├── css/                        # Stylesheets
+├── js/                         # JavaScript
+├── scripts/                    # Build scripts
+└── *.html                      # Site pages
 ```
 
 ---
 
-## 📝 Adding Content
-
-### Blog Posts
-
-```bash
-# Create new post directory
-mkdir content/blog/posts/my-first-post
-cd content/blog/posts/my-first-post
-
-# Create post file
-New-Item index.md
-```
-
-```markdown
----
-title: "My First Blog Post"
-date: "2024-01-15"
-tags: ["tutorial", "web development"]
-featured: true
----
-
-# My First Post
-
-Your content here in markdown...
-
-## Subheading
-
-More content...
-```
-
-```bash
-# Build and preview
-npm run build
-npx live-server
-```
-
-### Projects
-
-```bash
-# Create project directory
-mkdir content/projects/posts/my-project
-cd content/projects/posts/my-project
-
-# Create project file
-New-Item index.md
-```
-
-```markdown
----
-title: "My Awesome Project"
-description: "Short description"
-technologies: ["React", "Node.js", "MongoDB"]
-github: "https://github.com/username/project"
-demo: "https://demo.com"
-thumbnail: "assets/thumbnail.jpg"
-featured: true
----
-
-# Project Details
-
-Detailed description...
-```
-
-📖 **Full content guide:** [docs/TEMPLATE_SETUP.md#adding-content](docs/TEMPLATE_SETUP.md#adding-content)
-
----
-
-## 🎨 Customization
+## 🎨 Customization Examples
 
 ### Change Colors
 
 ```javascript
 // config/template.config.js
 theme: {
-    primaryColor: '#3498db',  // Your brand color
-    accentColor: '#e74c3c'    // Accent color
+    primaryColor: '#ff6b6b',  // Coral red
+    accentColor: '#4ecdc4'    // Turquoise
 }
 ```
 
 ```bash
-npm run build:theme  # Apply theme
+npm run build  # Colors update automatically!
 ```
 
-### Toggle Features
+### Hide Blog Section
 
 ```javascript
 // config/template.config.js
 features: {
-    blog: true,       // Show/hide blog
-    projects: true,   // Show/hide projects
-    contact: true     // Show/hide contact
+    blog: false,      // Blog section hidden
+    projects: true
 }
 ```
-
-### Change Fonts
-
-```javascript
-// config/template.config.js
-theme: {
-    fontFamily: 'Poppins, sans-serif',
-    codeFontFamily: 'Fira Code, monospace'
-}
-```
-
-📖 **Full customization guide:** [docs/CUSTOMIZATION.md](docs/CUSTOMIZATION.md)
-
----
-
-## 🚀 Deployment
-
-### Deploy to GitHub Pages
 
 ```bash
-# 1. Ensure repository is named: yourusername.github.io
+npm run build  # Blog section disappears!
+```
 
-# 2. Build your site
+### Update Personal Info
+
+```bash
+npm run setup  # Re-run wizard
+# OR edit config/template.config.js manually
 npm run build
-
-# 3. Commit and push
-git add .
-git commit -m "Deploy portfolio"
-git push origin main
-
-# 4. Enable GitHub Pages
-# Settings → Pages → Source: main branch → Save
-
-# 5. Your site is live at: https://yourusername.github.io
 ```
-
-### Other Platforms
-
-- **Netlify:** Connect GitHub repo, auto-deploys on push
-- **Vercel:** Import GitHub repo, instant deployment
-- **Cloudflare Pages:** Fast CDN, free tier
-
-📖 **Full deployment guide:** [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)
 
 ---
 
-## 📋 Available Commands
+## 🌐 Deployment
 
-| Command | Description |
-|---------|-------------|
-| `npm run setup` | Run interactive setup wizard |
-| `npm run build` | Build everything (validate + content + theme) |
-| `npm run build:content` | Compile markdown to JSON |
-| `npm run build:theme` | Generate theme CSS from config |
-| `npm run validate` | Validate configuration |
-| `npm run clean` | Remove example content |
-| `npx live-server` | Preview site locally |
+### GitHub Pages (Recommended & Free)
 
----
+1. Push to GitHub
+2. Go to Settings → Pages
+3. Source: `main` branch
+4. Done! Site live at `https://yourusername.github.io`
 
-## 🆘 Troubleshooting
-
-**Issue:** Config validation fails
-```bash
-npm run validate  # See specific errors
-```
-
-**Issue:** Content not showing
-```bash
-npm run build:content  # Rebuild content
-# Check data/*.json files
-```
-
-**Issue:** Theme not applied
-```bash
-npm run build:theme  # Regenerate theme CSS
-# Hard refresh browser (Ctrl+Shift+R)
-```
-
-**Issue:** Build errors
-```bash
-npm install  # Reinstall dependencies
-npm run build  # Try again
-```
-
-📖 **Full troubleshooting guide:** [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
+See [Deployment Guide](docs/DEPLOYMENT.md) for:
+- Custom domains
+- Netlify deployment
+- Vercel deployment
+- Traditional hosting
 
 ---
 
-## 📚 Documentation
+## 💡 Tips
 
-- 📖 [Setup Guide](docs/TEMPLATE_SETUP.md) - Complete setup walkthrough
-- 🎨 [Customization Guide](docs/CUSTOMIZATION.md) - Customize everything
-- 🚀 [Deployment Guide](docs/DEPLOYMENT.md) - Deploy to hosting platforms
-- 🔧 [Troubleshooting Guide](docs/TROUBLESHOOTING.md) - Common issues & solutions
-- 🤝 [Contributing Guide](docs/CONTRIBUTING.md) - Help improve this template
+1. **Start Simple** - Use the setup wizard, add content later
+2. **Use Templates** - Copy `content/blog/template/` for new posts
+3. **Preview Locally** - Install live-server: `npm install -g live-server && live-server`
+4. **Commit Often** - Use git to track changes
+5. **Read Docs** - Check docs/ folder for detailed guides
 
 ---
 
-## 🌟 Examples
+## 🐛 Troubleshooting
 
-Want to see what others have built? Check out these portfolios using this template:
+**Build fails?**
+```bash
+npm run validate  # Check configuration
+npm install       # Reinstall dependencies
+```
 
-- [Example 1](#) - Software Engineer
-- [Example 2](#) - UX Designer
-- [Example 3](#) - Freelance Developer
+**Content not showing?**
+```bash
+npm run build     # Rebuild
+# Check data/*.json files were generated
+```
 
-*(Add your portfolio here by opening a PR!)*
+**Styling broken?**
+```bash
+# Clear browser cache (Ctrl+Shift+R)
+# Check css/theme-variables.css exists
+npm run build:theme
+```
+
+See [Troubleshooting Guide](docs/TROUBLESHOOTING.md) for more help.
+
+---
+
+## 📸 Screenshots
+
+<!-- Add screenshots here -->
+_Coming soon - see [CUSTOMIZATION.md](docs/CUSTOMIZATION.md) for examples_
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read the [Contributing Guide](docs/CONTRIBUTING.md) first.
+Contributions welcome! See [CONTRIBUTING.md](docs/CONTRIBUTING.md).
 
-### Ways to Contribute
-- 🐛 Report bugs
-- 💡 Suggest features
-- 📝 Improve documentation
-- 🔧 Submit pull requests
-- ⭐ Star this repository
+Found a bug? [Open an issue](https://github.com/yourusername/modern-portfolio-template/issues)
 
 ---
 
-## � License
+## 📄 License
 
-MIT License - feel free to use this template for personal or commercial projects!
+MIT License - Use freely for your portfolio!
+
+See [LICENSE](LICENSE) for details.
 
 ---
 
 ## 🙏 Acknowledgments
 
-- Built with vanilla HTML, CSS, and JavaScript
-- Markdown parsing with [marked.js](https://marked.js.org/)
-- Icons from [Font Awesome](https://fontawesome.com/) (if used)
-- Inspired by modern portfolio designs
+- Built with ❤️ for developers
+- Inspired by the need for simple, customizable portfolios
+- Thanks to all contributors!
 
 ---
 
 ## 📞 Support
 
-- 📖 [Documentation](docs/TEMPLATE_SETUP.md)
-- 💬 [Discussions](https://github.com/tian102/tianpretorius.github.io/discussions)
-- 🐛 [Report Issue](https://github.com/tian102/tianpretorius.github.io/issues)
+- 📖 [Documentation](docs/)
+- 💬 [Discussions](https://github.com/yourusername/modern-portfolio-template/discussions)
+- 🐛 [Issues](https://github.com/yourusername/modern-portfolio-template/issues)
 
 ---
 
-## ⭐ Show Your Support
-
-If this template helped you, give it a ⭐ star on GitHub!
-
----
-
-**Made with ❤️ for the developer community**
-
-*Turn this template into your dream portfolio in under 10 minutes!*
+**Ready to build your portfolio?** [Get Started →](#-quick-start)

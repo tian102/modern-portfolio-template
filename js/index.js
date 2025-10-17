@@ -1,10 +1,54 @@
 // Homepage functionality - Load featured projects and latest blog posts
-document.addEventListener("DOMContentLoaded", async function() {
-    // Load site content first
-    await ContentLoader.load();
+async function initializeIndexPage() {
+    try {
+        // Load site content first - wait for it to complete
+        const content = await ContentLoader.load();
+        if (!content) {
+            throw new Error('Failed to load site content');
+        }
+        
+        // Now render navigation
+        ContentLoader.renderNavigation('index.html');
+        
+        // Initialize dropdown functionality for hardcoded navigation
+        initializeDropdownFunctionality();
+        
+        // Continue with the rest of the initialization
+        await initializeHomepage();
+        
+    } catch (error) {
+        console.error('Failed to initialize index page:', error);
+    }
+}
+
+// Wait for DOM to be ready, then initialize
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeIndexPage);
+} else {
+    // DOM is already ready
+    initializeIndexPage();
+}
+
+function initializeDropdownFunctionality() {
+    const dropdownToggle = document.querySelector('.nav-dropdown-toggle');
+    const dropdownMenu = document.querySelector('.nav-dropdown-menu');
     
-    // Render navigation
-    ContentLoader.renderNavigation('index.html');
+    if (dropdownToggle && dropdownMenu) {
+        dropdownToggle.addEventListener('click', (e) => {
+            e.preventDefault();
+            dropdownMenu.classList.toggle('active');
+        });
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav-dropdown')) {
+                dropdownMenu.classList.remove('active');
+            }
+        });
+    }
+}
+
+async function initializeHomepage() {
     
     // Populate hero section
     ContentLoader.populateMultiple({
@@ -71,7 +115,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     
     // Show content (remove loading class)
     ContentLoader.showContent();
-});
+}
 
 // Load featured projects from JSON
 async function loadFeaturedProjects() {
@@ -85,7 +129,7 @@ async function loadFeaturedProjects() {
         }
         
         const projects = await response.json();
-        console.log(`Loaded ${projects.length} projects for homepage`);
+
         
         // Calculate read time for each project
         projects.forEach(project => {
@@ -175,7 +219,7 @@ async function loadLatestBlogPosts() {
         }
         
         const posts = await response.json();
-        console.log(`Loaded ${posts.length} blog posts for homepage`);
+
         
         // Calculate read time for each post
         posts.forEach(post => {

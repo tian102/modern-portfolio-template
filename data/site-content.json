@@ -1,27 +1,27 @@
 {
   "personal": {
-    "name": "John Doe",
-    "title": "Job Role",
-    "tagline": "I can change the world",
-    "email": "john.doe@email.com",
+    "name": "Jordan Taylor",
+    "title": "Marketing Manager",
+    "tagline": "Driving digital growth through data, creativity, and strategy",
+    "email": "jordan.taylor@example.com",
     "social": {
-      "github": "https://github.com/username",
-      "linkedin": "https://www.linkedin.com/in/username/",
-      "email": "mailto:john.doe@email.com"
+      "github": "https://github.com/jordantaylor",
+      "linkedin": "https://linkedin.com/in/jordantaylor-marketing",
+      "email": "mailto:jordan.taylor@example.com"
     }
   },
   "hero": {
     "greeting": "Hi, I'm",
-    "name": "John Doe",
+    "name": "Jordan Taylor",
     "typedRoles": [
-      "Job role 1",
-      "Job role 2",
-      "Job role 3",
-      "Job role 4"
+      "Marketing Manager",
+      "Digital Strategist",
+      "Brand Builder",
+      "Content Marketer"
     ],
     "description": [
-      "Software Engineer with 5+ years in automation and systems design. I've built custom tools for micronutrient production, optimized manufacturing lines, and developed Python–OpenCV web and mobile apps for precision analysis.",
-      "Qualified (B.Eng) Computer and Electronic Engineer with experience leading R&D projects spanning particle recognition algorithms, RFID adoption analysis and prototype development, and digital security protocols — consistently delivering scalable, compliant, and innovative solutions."
+      "Marketing Manager with 7+ years of experience leading multi-channel campaigns, brand strategy, and client growth initiatives across digital platforms.",
+      "I've helped brands and agencies create measurable impact through data-driven storytelling, paid media optimization, and integrated marketing strategies that align creativity with business goals."
     ],
     "cta": {
       "primary": "About Me",
@@ -32,153 +32,129 @@
   },
   "about": {
     "pageTitle": "About Me",
-    "pageTagline": "Software Engineer building scalable systems and solving complex problems",
+    "pageTagline": "Marketing Manager helping agencies and brands grow through smart strategy and creative execution",
     "sections": [
       {
         "title": "Who I Am",
         "content": [
-          "I’m John Doe, a software engineer who enjoys turning complex problems into systems that work reliably. Over the past five years, I’ve built tools and applications that improve workflows, automate processes, and make data more actionable.",
-          "My experience spans software development, automation, and projects that bring hardware and software together. I focus on connecting technical concepts with practical applications, creating systems that are dependable, maintainable, and straightforward to use."
+          "I'm Jordan Taylor, a digital marketing professional passionate about connecting people with brands through meaningful campaigns. Over the past seven years, I've led cross-functional teams, managed client accounts, and executed performance marketing strategies that drive engagement and ROI.",
+          "I enjoy translating data into stories that resonate, helping clients understand their audiences, and creating campaigns that turn attention into action."
         ]
       },
       {
         "title": "What I Do",
-        "intro": "I design and build scalable, reliable systems, with a focus on:",
+        "intro": "I design and execute digital marketing strategies with a focus on:",
         "list": [
-          "Full-stack application development and architecture",
-          "Database design and scalable data management",
-          "System design, security, and protocol implementation",
-          "R&D · Prototyping · Software Systems · Hardware (occasional)",
-          "Leading projects, collaborating across teams, and solving complex technical problems"
+          "Multi-channel campaign planning and management",
+          "Brand positioning and creative direction",
+          "SEO, PPC, and social media marketing",
+          "Email automation and CRM workflows",
+          "Analytics, reporting, and performance optimization",
+          "Team leadership and client relationship management"
         ]
       },
       {
         "title": "My Approach",
         "content": [
-          "I see engineering as a mix of problem-solving and craft. I break problems into smaller pieces, explore different solutions, and refine systems until they function smoothly. Maintainability, scalability, and usability guide my work, ensuring solutions continue to perform over time.",
-          "Collaboration is an important part of my process. I incorporate feedback, test ideas in practice, and adjust when necessary. Balancing technical rigor with practical results helps me build systems that are effective and usable in real-world contexts."
-        ]
-      },
-      {
-        "title": "Highlights from My Journey",
-        "content": [
-          "I enjoy working on challenging problems that require thoughtful solutions and careful design. I’m motivated by building systems that are reliable, adaptable, and easy to work with.",
-          "Continuous learning and experimentation are central to my practice. I value projects where technical depth meets practical outcomes, and I appreciate working with teams that focus on problem-solving and steady improvement."
-        ]
-      },
-      {
-        "title": "What Excites Me",
-        "content": [
-          "My journey began in computer and electronic engineering, where I developed a foundation in programming, data analysis, and system design. Early projects sparked my interest in connecting software to physical systems through prototypes, automation, and data-driven tools.",
-          "Since then, I’ve worked in R&D, full-stack development, and automation. I’ve developed precision analysis tools, optimized production workflows, and prototyped integrated systems. Each project reinforced the importance of creating solutions that are both technically sound and practical to use."
+          "I see marketing as the balance between creativity and analytics. Every campaign should tell a story while being guided by clear objectives and measurable outcomes.",
+          "I focus on collaboration, testing, and refinement — aligning strategy, content, and performance data to continuously improve results for clients and brands."
         ]
       }
     ],
     "sidebar": {
       "skills": {
-        "title": "Skills & Technologies",
+        "title": "Skills & Tools",
         "tags": [
-          "JavaScript",
-          "TypeScript",
-          "React",
-          "Python",
-          "C#",
-          "MySQL",
-          "PostgreSQL",
-          "Django",
-          "Docker",
-          "Git",
-          "REST APIs",
-          "CI/CD",
-          "Linux",
-          "Embedded Programming"
+          "Marketing Strategy",
+          "Brand Management",
+          "SEO & SEM",
+          "Content Marketing",
+          "Google Ads",
+          "Meta Ads Manager",
+          "Email Marketing",
+          "CRM Automation",
+          "Analytics & Reporting",
+          "Copywriting",
+          "Campaign Optimization",
+          "Social Media Strategy",
+          "Team Leadership",
+          "Client Relations"
         ]
       },
       "experience": {
         "title": "Experience",
         "items": [
           {
-            "title": "CTO & Software Engineer",
-            "duration": "1 year",
-            "description": "Developed vitamin premixes for nutrition and food fortification; optimized production lines for compliance; consulted on global fortification projects; managed and optimized sourcing operations."
+            "title": "Marketing Manager",
+            "duration": "3 years",
+            "description": "Led digital campaigns for multiple clients, managing strategy, creative, and analytics. Improved conversion rates and ROI through performance-driven initiatives across paid and organic channels."
           },
           {
-            "title": "Computer/Solution Engineer",
-            "duration": "5 years",
-            "description": "Built automation systems for micronutrient production and quality assurance, implemented secure and compliant processes, and provided R&D support and technical system development."
-          },
-          {
-            "title": "Lead/R&D Engineer",
-            "duration": "5 years",
-            "description": "Developed vitamin testing platforms, including particle recognition algorithms for detecting vitamin A in sugar crystals. Deployed software across web and mobile platforms, bridging research with practical industrial applications."
+            "title": "Digital Marketing Specialist",
+            "duration": "2 years",
+            "description": "Planned and executed SEO, SEM, and social media strategies. Developed data-led reporting frameworks to optimize campaigns and enhance client transparency."
           }
         ]
       },
       "currentFocus": {
         "title": "Current Focus",
-        "intro": "Exploring software engineering opportunities where I can apply my experience, R&D background, and systems design skills. Open to roles across:",
+        "intro": "Collaborating with digital marketing agencies and brands to drive measurable growth through:",
         "list": [
-          "Web",
-          "Mobile",
-          "Automation",
-          "System Architecture & Design",
-          "Data analytics & visualization"
+          "Performance marketing and paid media strategy",
+          "Full-funnel content development",
+          "Campaign analytics and reporting",
+          "Brand storytelling and creative leadership"
         ]
       }
     }
   },
   "projects": {
-    "pageTitle": "My Projects",
-    "pageTagline": "A showcase of my work, from side projects to professional applications. Each project represents a unique challenge and learning experience.",
-    "sectionTitle": "Featured Projects",
+    "pageTitle": "Projects",
+    "pageTagline": "Selected campaigns and projects demonstrating strategy, creativity, and results.",
+    "sectionTitle": "Featured Work",
     "sectionNumber": "02.",
     "viewAllText": "View All Projects →"
   },
   "blog": {
     "pageTitle": "Blog",
-    "pageTagline": "Thoughts on engineering, entrepreneurship, and building products.",
-    "sectionTitle": "Latest from my Blog",
+    "pageTagline": "Thoughts on marketing, creativity, and digital growth.",
+    "sectionTitle": "Latest from My Blog",
     "sectionNumber": "03.",
     "viewAllText": "View All Posts →"
   },
-  "dev": {
-    "pageTitle": "Behind the Scenes",
-    "pageTagline": "Documentation and technical details about how this portfolio website works."
-  },
   "contact": {
     "pageTitle": "Get in Touch",
-    "pageTagline": "Whether you have a project in mind, want to discuss opportunities, or just want to connect, I'd love to hear from you. Choose your preferred way to reach out:",
-    "badge": "Available for opportunities",
+    "pageTagline": "Whether you need help with campaign strategy, brand positioning, or digital optimization — I'd love to connect.",
+    "badge": "Open for collaborations",
     "methods": [
       {
         "icon": "email",
         "title": "Email",
-        "value": "john.doe@email.com",
-        "description": "For detailed inquiries and project discussions",
-        "link": "mailto:john.doe@email.com",
-        "primary": false
-      },
-      {
-        "icon": "whatsapp",
-        "title": "WhatsApp",
-        "value": "+01 23 456 7890",
-        "description": "Quick questions and real-time chat",
-        "link": "https://wa.me/01234567890",
-        "primary": false
+        "value": "jordan.taylor@example.com",
+        "description": "For project inquiries and collaboration requests",
+        "link": "mailto:jordan.taylor@example.com",
+        "primary": true
       },
       {
         "icon": "linkedin",
         "title": "LinkedIn",
-        "value": "John Doe",
+        "value": "Jordan Taylor",
         "description": "Professional networking and opportunities",
-        "link": "https://www.linkedin.com/in/username/"
+        "link": "https://www.linkedin.com/in/jordantaylor-marketing/"
+      },
+      {
+        "icon": "phone",
+        "title": "WhatsApp",
+        "value": "+1 (555) 123-4567",
+        "description": "Quick conversations and urgent requests",
+        "link": "https://wa.me/15551234567"
       },
       {
         "icon": "github",
         "title": "GitHub",
-        "value": "@username",
-        "description": "View my code and open source work",
-        "link": "https://github.com/username"
+        "value": "@jordantaylor",
+        "description": "Code samples and technical projects",
+        "link": "https://github.com/jordantaylor"
       }
     ],
     "infoCards": [
@@ -186,37 +162,35 @@
         "type": "location",
         "icon": "location",
         "title": "Location",
-        "value": "City, Country",
-        "coordinates": {
-          "lat": -29.555353,
-          "lng": 30.2819635
-        },
-        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56925.89242357891!2d30.2819635!3d-29.555353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef6a5c1c140393d%3A0x58968436568fb100!2sHilton%2C%20South%20Africa!5e0!3m2!1sen!2s!4v1234567890"
+        "value": "San Francisco, CA",
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019262302141!2d-122.41941848468213!3d37.77492997975905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050fa5!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1635000000000!5m2!1sen!2sus"
       },
       {
         "type": "calendar",
         "icon": "calendar",
-        "title": "Book a Meeting",
-        "value": "Schedule a time to chat",
-        "calendarUrl": "https://calendly.com/username",
-        "description": "Available Mon-Fri, 8AM-5PM SAST"
+        "title": "Schedule a Meeting",
+        "value": "Available for 30-60 minute discussions",
+        "description": "Book a call to discuss your marketing strategy, campaign planning, or collaboration opportunities.",
+        "calendarUrl": "https://calendly.com/jordan-taylor-marketing"
       },
       {
         "type": "openTo",
         "icon": "briefcase",
         "title": "Open To",
-        "value": "Exploring new opportunities",
+        "value": "Current collaboration interests:",
         "items": [
-          "Full-time positions",
-          "Contract projects (3-12 months)",
-          "Technical consulting",
-          "Coffee chats & networking"
+          "Marketing strategy consulting",
+          "Campaign development & execution",
+          "Brand positioning projects",
+          "Content marketing partnerships",
+          "Speaking engagements",
+          "Freelance & contract work"
         ]
       }
     ]
   },
   "navigation": {
-    "brandName": "John Doe",
+    "brandName": "Jordan Taylor",
     "links": [
       {
         "text": "Home",
@@ -242,82 +216,54 @@
     ],
     "documents": [
       {
-        "name": "Résumé",
-        "file": "assets/docs/resume.pdf",
-        "type": "pdf"
+        "name": "Resume / CV",
+        "file": "assets/docs/Jordan-Taylor-CV.pdf"
       },
       {
-        "name": "Cover Letter",
-        "file": "assets/docs/cover-letter.pdf",
-        "type": "pdf"
+        "name": "Cover Letter", 
+        "file": "assets/docs/Jordan-Taylor-Cover-Letter.pdf"
       }
     ]
   },
   "homepage": {
     "aboutPreview": {
-      "intro": "I’m a curious engineer who loves turning ideas into systems that work seamlessly. Whether it’s improving workflows, creating data-driven tools, or designing applications that solve real problems, I’m driven by the challenge of connecting technical concepts with practical outcomes.",
+      "intro": "I help agencies and brands connect strategy with creativity — building campaigns that convert attention into measurable growth.",
       "paragraphs": [
-        "Over the past five years, I’ve built solutions that span the full spectrum of engineering — from prototyping embedded systems to architecting scalable software platforms. This has taught me how to bridge theory and practice, ensuring that every system I design is both reliable and adaptable in real-world environments.",
-        "I approach every project with a focus on experimentation, iteration, and thoughtful design. I enjoy refining systems until they feel effortless to use, uniting technical depth with usability, and finding creative ways to make complex problems simpler and more maintainable.",
-        "At my core, I’m motivated by collaboration and impact. I love working on projects that combine innovation with tangible results, where software and technology come together to create meaningful solutions. If you’re building something ambitious, I’m excited to help bring it to life."
+        "With a background in digital strategy and brand management, I specialize in creating campaigns that blend data, storytelling, and design. My goal is to make marketing both meaningful and measurable.",
+        "From SEO and social media to paid media and analytics, I approach every project with curiosity and collaboration. I love finding new ways to grow audiences and strengthen brand trust."
       ],
       "ctaText": "Learn More About Me →",
       "ctaLink": "about.html"
     },
     "skills": {
-      "title": "Skills & Technologies",
+      "title": "Core Skills",
       "categories": [
         {
-          "name": "Backend & Systems",
+          "name": "Digital Strategy",
           "tags": [
-            "Django",
-            "PHP",
-            "Node.js",
-            "PostgreSQL",
-            "REST APIs",
-            "Authentication & Authorization",
-            "System Design"
+            "Marketing Planning",
+            "Campaign Development",
+            "Performance Optimization",
+            "Analytics & Reporting"
           ]
         },
         {
-          "name": "DevOps & Infrastructure",
+          "name": "Creative & Content",
           "tags": [
-            "Docker",
-            "CI/CD",
-            "Containerization",
-            "Deployment"
+            "Copywriting",
+            "Social Media Campaigns",
+            "Brand Storytelling",
+            "Email Marketing"
           ]
         },
         {
-          "name": "Frontend & Development",
+          "name": "Platforms & Tools",
           "tags": [
-            "HTML",
-            "CSS/SASS",
-            "JavaScript",
-            "Android",
-            "Java",
-            "C#",
-            "Python"
-          ]
-        },
-        {
-          "name": "Other",
-          "tags": [
-            "Git",
-            "GitHub",
-            "API Integration",
-            "Agile Workflow",
-            "Linux",
-            "Scripting"
-          ]
-        },
-        {
-          "name": "Familiar with",
-          "tags": [
-            "React",
-            "Typescript",
-            "Unit Testing",
-            "Supabase"
+            "Google Ads",
+            "Meta Ads Manager",
+            "HubSpot",
+            "Canva",
+            "Google Analytics"
           ]
         }
       ]
@@ -329,63 +275,59 @@
       },
       "projects": {
         "number": "02.",
-        "title": "Featured Projects",
-        "cta": "View All Projects →",
+        "title": "Featured Work",
+        "cta": "View All Case Studies →",
         "ctaLink": "projects.html"
       },
       "blog": {
         "number": "03.",
-        "title": "Latest from my Blog",
+        "title": "Latest Insights",
         "cta": "View All Posts →",
         "ctaLink": "blog.html"
       },
       "contact": {
         "number": "04.",
         "title": "Get In Touch",
-        "cta": "Send Me a Message",
+        "cta": "Contact Me",
         "ctaLink": "contact.html"
       }
     }
   },
   "footer": {
-    "copyright": "© 2025 John Doe. All rights reserved.",
-    "builtWith": "Built with vanilla HTML, CSS, and JavaScript.",
+    "copyright": "© 2025 Jordan Taylor. All rights reserved.",
+    "builtWith": "Designed for digital marketing professionals and creative agencies.",
     "links": [
       {
-        "text": "GitHub",
-        "url": "https://github.com/username"
-      },
-      {
         "text": "LinkedIn",
-        "url": "https://www.linkedin.com/in/username/"
+        "url": "https://www.linkedin.com/in/jordantaylor-marketing/"
       },
       {
         "text": "Email",
-        "url": "mailto:john.doe@email.com"
+        "url": "mailto:jordan.taylor@example.com"
       }
     ]
   },
   "site": {
-    "title": "John Doe - Portfolio",
-    "description": "<Job Role> Portfolio",
-    "url": "https://username.github.io/github-pages-site/",
-    "repository": "https://github.com/username/repository"
+    "title": "Jordan Taylor - Marketing Manager Portfolio",
+    "description": "Portfolio of a Marketing Manager specializing in digital marketing strategy, brand development, and performance campaigns.",
+    "url": "https://jordantaylorportfolio.com",
+    "repository": ""
   },
   "features": {
     "blog": true,
-    "projects": false,
+    "projects": true,
     "contactForm": true,
     "sectionNavigation": true,
     "darkModeToggle": false
   },
   "theme": {
-    "primaryColor": "#2c3e50",
-    "accentColor": "#3498db",
+    "primaryColor": "#1e293b",
+    "accentColor": "#f97316",
     "fontFamily": "Inter, sans-serif",
     "codeFontFamily": "JetBrains Mono, monospace"
   },
   "resume": {
     "enabled": true,
-    "filename": "resume.pdf"
+    "filename": "Jordan-Taylor-Resume.pdf"
   }
 }

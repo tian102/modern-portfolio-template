@@ -3,35 +3,35 @@
 
 module.exports = {
     "site": {
-        "title": "Reinette Fritz - Portfolio",
-        "description": "Marketing Manager Portfolio",
-        "url": "https://netta102.github.io/reinettefritz.github.io/",
-        "author": "Reinette Fritz",
-        "repository": "https://github.com/netta102/reinettefritz.github.io"
+        "title": "Jordan Taylor - Marketing Manager Portfolio",
+        "description": "Portfolio of a Marketing Manager specializing in digital marketing strategy, brand development, and performance campaigns.",
+        "url": "https://jordantaylorportfolio.com",
+        "author": "Jordan Taylor",
+        "repository": ""
     },
     "personal": {
-        "name": "Reinette Fritz",
+        "name": "Jordan Taylor",
         "title": "Marketing Manager",
-        "email": "fritzreinette@gmail.com",
-        "location": "Hilton, South Africa",
+        "email": "jordan.taylor@example.com",
+        "location": "Remote / Open to relocation",
         "timezone": "UTC"
     },
     "social": {
-        "github": "netta102",
-        "linkedin": "https://www.linkedin.com/in/reinette-fritz-9a9727253/",
+        "github": "jordantaylor",
+        "linkedin": "https://linkedin.com/in/jordantaylor-marketing",
         "twitter": "",
         "medium": "",
         "devto": ""
     },
     "theme": {
-        "primaryColor": "#2c3e50",
-        "accentColor": "#3498db",
+        "primaryColor": "#1e293b",
+        "accentColor": "#f97316",
         "fontFamily": "Inter, sans-serif",
         "codeFontFamily": "JetBrains Mono, monospace"
     },
     "features": {
         "blog": true,
-        "projects": false,
+        "projects": true,
         "contactForm": true,
         "sectionNavigation": true,
         "darkModeToggle": false
@@ -44,6 +44,6 @@ module.exports = {
     },
     "resume": {
         "enabled": true,
-        "filename": "Reinette-Fritz-Resume.pdf"
+        "filename": "Jordan-Taylor-Resume.pdf"
     }
 };

@@ -161,11 +161,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Function to render documents dropdown in navbar
 function renderDocumentsDropdown() {
-    console.log('renderDocumentsDropdown called');
-    
     // Check if dropdown already exists
     if (document.querySelector('.nav-dropdown')) {
-        console.log('Dropdown already exists');
         return;
     }
     
@@ -173,20 +170,15 @@ function renderDocumentsDropdown() {
     fetch('data/site-content.json')
         .then(response => response.json())
         .then(siteContent => {
-            console.log('siteContent loaded:', siteContent);
             const documents = siteContent.navigation?.documents || [];
-            console.log('documents:', documents);
             
             if (documents.length === 0) {
-                console.log('No documents found');
                 return;
             }
             
             // Find the nav-menu ul element
             const navMenu = document.querySelector('.nav-menu');
-            console.log('navMenu found:', navMenu);
             if (!navMenu) {
-                console.log('navMenu not found!');
                 return;
             }
             
@@ -205,15 +197,11 @@ function renderDocumentsDropdown() {
             `;
             
             // Insert before the closing </ul> tag
-            console.log('Inserting dropdown HTML');
             navMenu.insertAdjacentHTML('beforeend', dropdownHTML);
-            console.log('HTML inserted, checking if elements exist...');
             
-            // Verify the elements were added
+            // Set up event listeners
             const dropdownToggle = navMenu.querySelector('.nav-dropdown-toggle');
             const dropdownMenu = navMenu.querySelector('.nav-dropdown-menu');
-            console.log('dropdownToggle after insertion:', dropdownToggle);
-            console.log('dropdownMenu after insertion:', dropdownMenu);
             
             if (dropdownToggle && dropdownMenu) {
                 dropdownToggle.addEventListener('click', (e) => {

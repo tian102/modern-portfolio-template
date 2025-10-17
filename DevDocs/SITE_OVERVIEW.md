@@ -1,10 +1,10 @@
-# Tian Pretorius - Portfolio Website Overview
+# Modern Portfolio Template - Technical Overview
 
 ## Overview
 
-This is a personal portfolio website for Tian Pretorius, a software engineer with 5+ years of experience in automation, systems design, and full-stack development. The site serves as both a professional showcase and a platform for sharing technical insights through blog posts and project documentation.
+This is a customizable portfolio template designed to help developers, designers, and other professionals create beautiful online portfolios. Built with vanilla HTML, CSS, and JavaScript, it provides a robust foundation for showcasing work, sharing insights through blog posts, and presenting professional accomplishments.
 
-The website represents Tian's journey from traditional computer engineering into diverse technical domains, including food fortification systems, computer vision research, and modern web development. It's built as a demonstration of his engineering philosophy: creating reliable, maintainable systems that solve real-world problems.
+The template emphasizes simplicity, performance, and customization flexibility. It demonstrates how to create sophisticated functionality using fundamental web technologies, making it accessible to developers of all skill levels while providing advanced features for power users.
 
 ## Core Purpose
 
@@ -24,7 +24,7 @@ Beyond portfolio functionality, the site functions as a technical blog and knowl
 ## Architecture & Technology
 
 ### Build Philosophy
-The site embodies Tian's engineering approach: **constraint-driven design**. Built without frameworks or backend dependencies, it demonstrates how to create sophisticated functionality using fundamental web technologies. Every component is custom-built, reflecting a preference for deep understanding over convenience tools.
+The template embodies modern web development best practices: **progressive enhancement and accessibility-first design**. Built without frameworks or backend dependencies, it demonstrates how to create sophisticated functionality using fundamental web technologies. Every component is crafted for maximum compatibility and performance.
 
 ### Technical Stack
 ```

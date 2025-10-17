@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tian102/tianpretorius.github.io.git"
+    "url": "https://github.com/yourusername/modern-portfolio-template.git"
   },
   "bugs": {
-    "url": "https://github.com/tian102/tianpretorius.github.io/issues"
+    "url": "https://github.com/yourusername/modern-portfolio-template/issues"
   },
-  "homepage": "https://tian102.github.io/tianpretorius.github.io/",
+  "homepage": "https://yourusername.github.io/modern-portfolio-template/",
   "keywords": [
     "portfolio",
     "portfolio-template",
@@ -45,9 +45,9 @@
     "easy-setup"
   ],
   "author": {
-    "name": "Tian Pretorius",
-    "email": "tianpretorius@gmail.com",
-    "url": "https://github.com/tian102"
+    "name": "Modern Portfolio Template",
+    "email": "contact@example.com",
+    "url": "https://github.com/yourusername/modern-portfolio-template"
   },
   "contributors": [],
   "license": "MIT",

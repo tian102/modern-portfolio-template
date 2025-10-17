@@ -536,7 +536,10 @@
      */
     function renderNavigation(currentPage = '') {
         const nav = getContent('navigation');
-        if (!nav) return;
+        if (!nav) {
+            console.warn('Navigation data not available');
+            return;
+        }
         
         // Update brand name
         const brandNameEl = document.querySelector('.brand-name');
