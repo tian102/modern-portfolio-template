@@ -54,19 +54,23 @@ console.log('Building blog posts...');
 const blogPostsDir = path.join(__dirname, '../content/blog/posts');
 const blogPosts = [];
 
-const blogDirs = fs.readdirSync(blogPostsDir, { withFileTypes: true })
-    .filter(dirent => dirent.isDirectory())
-    .map(dirent => dirent.name);
-console.log(`Found ${blogDirs.length} blog post directories in content/blog/posts`);
+// Check if blog posts directory exists
+if (!fs.existsSync(blogPostsDir)) {
+    console.log('⚠️  Blog posts directory not found, creating empty blog posts array');
+} else {
+    const blogDirs = fs.readdirSync(blogPostsDir, { withFileTypes: true })
+        .filter(dirent => dirent.isDirectory())
+        .map(dirent => dirent.name);
+    console.log(`Found ${blogDirs.length} blog post directories in content/blog/posts`);
 
-blogDirs.forEach(slug => {
-    const postIndexPath = path.join(blogPostsDir, slug, 'index.md');
-    
-    // Skip if index.md doesn't exist
-    if (!fs.existsSync(postIndexPath)) {
-        console.log(`  ⚠️  Warning: ${slug}/index.md not found, skipping...`);
-        return;
-    }
+    blogDirs.forEach(slug => {
+        const postIndexPath = path.join(blogPostsDir, slug, 'index.md');
+        
+        // Skip if index.md doesn't exist
+        if (!fs.existsSync(postIndexPath)) {
+            console.log(`  ⚠️  Warning: ${slug}/index.md not found, skipping...`);
+            return;
+        }
     
     console.log(`  Processing blog post: ${slug}`);
     const content = fs.readFileSync(postIndexPath, 'utf8');
@@ -114,6 +118,7 @@ blogDirs.forEach(slug => {
         postPath: `content/blog/posts/${slug}/`
     });
 });
+}
 
 // Sort blog posts by date (newest first)
 blogPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -135,12 +140,16 @@ console.log('\nBuilding projects...');
 const projectsDir = path.join(__dirname, '../content/projects/posts');
 const projects = [];
 
-const projectDirs = fs.readdirSync(projectsDir, { withFileTypes: true })
-    .filter(dirent => dirent.isDirectory())
-    .map(dirent => dirent.name);
-console.log(`Found ${projectDirs.length} project directories in content/projects/posts`);
+// Check if projects directory exists
+if (!fs.existsSync(projectsDir)) {
+    console.log('⚠️  Projects directory not found, creating empty projects array');
+} else {
+    const projectDirs = fs.readdirSync(projectsDir, { withFileTypes: true })
+        .filter(dirent => dirent.isDirectory())
+        .map(dirent => dirent.name);
+    console.log(`Found ${projectDirs.length} project directories in content/projects/posts`);
 
-projectDirs.forEach(slug => {
+    projectDirs.forEach(slug => {
     const projectIndexPath = path.join(projectsDir, slug, 'index.md');
     
     // Skip if index.md doesn't exist
@@ -183,6 +192,7 @@ projectDirs.forEach(slug => {
         projectPath: `content/projects/posts/${slug}/`
     });
 });
+}
 
 // Sort projects by date (newest first)
 projects.sort((a, b) => {
