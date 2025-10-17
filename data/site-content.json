@@ -1,23 +1,23 @@
 {
   "personal": {
-    "name": "Reinette Fritz",
-    "title": "Marketing Manager",
-    "tagline": "Building scalable systems and turning ideas into reality",
-    "email": "fritzreinette@gmail.com",
+    "name": "John Doe",
+    "title": "Job Role",
+    "tagline": "I can change the world",
+    "email": "john.doe@email.com",
     "social": {
-      "github": "https://github.com/netta102",
-      "linkedin": "https://www.linkedin.com/in/reinette-fritz-9a9727253/",
-      "email": "mailto:fritzreinette@gmail.com"
+      "github": "https://github.com/username",
+      "linkedin": "https://www.linkedin.com/in/username/",
+      "email": "mailto:john.doe@email.com"
     }
   },
   "hero": {
     "greeting": "Hi, I'm",
-    "name": "Reinette Fritz",
+    "name": "John Doe",
     "typedRoles": [
-      "Software Engineer",
-      "Full-Stack Developer",
-      "Problem Solver",
-      "Tech Enthusiast"
+      "Job role 1",
+      "Job role 2",
+      "Job role 3",
+      "Job role 4"
     ],
     "description": [
       "Software Engineer with 5+ years in automation and systems design. I've built custom tools for micronutrient production, optimized manufacturing lines, and developed Python–OpenCV web and mobile apps for precision analysis.",
@@ -37,7 +37,7 @@
       {
         "title": "Who I Am",
         "content": [
-          "I’m Tian Pretorius, a software engineer who enjoys turning complex problems into systems that work reliably. Over the past five years, I’ve built tools and applications that improve workflows, automate processes, and make data more actionable.",
+          "I’m John Doe, a software engineer who enjoys turning complex problems into systems that work reliably. Over the past five years, I’ve built tools and applications that improve workflows, automate processes, and make data more actionable.",
           "My experience spans software development, automation, and projects that bring hardware and software together. I focus on connecting technical concepts with practical applications, creating systems that are dependable, maintainable, and straightforward to use."
         ]
       },
@@ -153,32 +153,32 @@
       {
         "icon": "email",
         "title": "Email",
-        "value": "tianpretorius@gmail.com",
+        "value": "john.doe@email.com",
         "description": "For detailed inquiries and project discussions",
-        "link": "mailto:tianpretorius@gmail.com",
+        "link": "mailto:john.doe@email.com",
         "primary": false
       },
       {
         "icon": "whatsapp",
         "title": "WhatsApp",
-        "value": "+27 76 679 6839",
+        "value": "+01 23 456 7890",
         "description": "Quick questions and real-time chat",
-        "link": "https://wa.me/27766796839",
+        "link": "https://wa.me/01234567890",
         "primary": false
       },
       {
         "icon": "linkedin",
         "title": "LinkedIn",
-        "value": "Tian Pretorius",
+        "value": "John Doe",
         "description": "Professional networking and opportunities",
-        "link": "https://www.linkedin.com/in/tian-pretorius-817a2189/"
+        "link": "https://www.linkedin.com/in/username/"
       },
       {
         "icon": "github",
         "title": "GitHub",
-        "value": "@tian102",
+        "value": "@username",
         "description": "View my code and open source work",
-        "link": "https://github.com/tian102"
+        "link": "https://github.com/username"
       }
     ],
     "infoCards": [
@@ -186,7 +186,7 @@
         "type": "location",
         "icon": "location",
         "title": "Location",
-        "value": "Hilton, South Africa",
+        "value": "City, Country",
         "coordinates": {
           "lat": -29.555353,
           "lng": 30.2819635
@@ -198,7 +198,7 @@
         "icon": "calendar",
         "title": "Book a Meeting",
         "value": "Schedule a time to chat",
-        "calendarUrl": "https://calendly.com/tianpretorius",
+        "calendarUrl": "https://calendly.com/username",
         "description": "Available Mon-Fri, 8AM-5PM SAST"
       },
       {
@@ -216,7 +216,7 @@
     ]
   },
   "navigation": {
-    "brandName": "Tian Pretorius",
+    "brandName": "John Doe",
     "links": [
       {
         "text": "Home",
@@ -243,12 +243,12 @@
     "documents": [
       {
         "name": "Résumé",
-        "file": "assets/docs/Tian-Pretorius-CV.pdf",
+        "file": "assets/docs/resume.pdf",
         "type": "pdf"
       },
       {
         "name": "Cover Letter",
-        "file": "assets/docs/Tian-Pretorius-Cover-Letter.pdf",
+        "file": "assets/docs/cover-letter.pdf",
         "type": "pdf"
       }
     ]
@@ -348,28 +348,28 @@
     }
   },
   "footer": {
-    "copyright": "© 2025 Tian Pretorius. All rights reserved.",
+    "copyright": "© 2025 John Doe. All rights reserved.",
     "builtWith": "Built with vanilla HTML, CSS, and JavaScript.",
     "links": [
       {
         "text": "GitHub",
-        "url": "https://github.com/tian102"
+        "url": "https://github.com/username"
       },
       {
         "text": "LinkedIn",
-        "url": "https://www.linkedin.com/in/tian-pretorius-817a2189/"
+        "url": "https://www.linkedin.com/in/username/"
       },
       {
         "text": "Email",
-        "url": "mailto:tianpretorius@gmail.com"
+        "url": "mailto:john.doe@email.com"
       }
     ]
   },
   "site": {
-    "title": "Reinette Fritz - Portfolio",
-    "description": "Marketing Manager Portfolio",
-    "url": "https://netta102.github.io/reinettefritz.github.io/",
-    "repository": "https://github.com/netta102/reinettefritz.github.io"
+    "title": "John Doe - Portfolio",
+    "description": "<Job Role> Portfolio",
+    "url": "https://username.github.io/github-pages-site/",
+    "repository": "https://github.com/username/repository"
   },
   "features": {
     "blog": true,
@@ -386,6 +386,6 @@
   },
   "resume": {
     "enabled": true,
-    "filename": "Reinette-Fritz-Resume.pdf"
+    "filename": "resume.pdf"
   }
 }
